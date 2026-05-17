@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(hawaii-tour.jpg);
+    background-repeat: repeat, no-repeat;
+    background-position: top left, right top;
+    background-size: cover, auto;
+    background-attachment: fixed;
+}
+
+header {
+
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 15px;
+}
+
+nav {
+    background-color: #e78906;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 15px;
+}
+
+nav ul li a {
+    content: "||";
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+footer {
+    background-color: #e78906;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+img {
+    max-width: 400px;
+    display: block;
+    margin-bottom: 10px;
+}
