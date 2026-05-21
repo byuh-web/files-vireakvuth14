@@ -1,0 +1,38 @@
+/* Color styles */
+body {
+    background-color: #f0f0f0;
+    /* hex color */
+    color: rgba(11, 11, 11, 0.8);
+    /* rgba color */
+}
+
+/* ID selector */
+#main-title {
+    color: rgb(3, 3, 233);
+    text-align: center;
+}
+
+/* Class selector */
+.answer {
+    color: #b80a1e;
+    font-style: italic;
+}
+
+/* Parent-child selector */
+header h1 {
+    font-size: 36px;
+}
+
+/* Navigation styling */
+nav a {
+    margin-right: 15px;
+    text-decoration: none;
+    color: lab(71.09% -67.43 51.35 / 0.952);
+}
+
+/* Footer styling */
+footer {
+    color: rgb(13, 241, 104);
+    margin-top: 20px;
+    text-align: center;
+}
