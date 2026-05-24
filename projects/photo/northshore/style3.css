@@ -1,0 +1,92 @@
+/* Default page styling */
+body {
+    font-family: Arial, sans-serif;
+
+    h1,
+    h2,
+    h3 {
+        font-family: "Aguafina Script", cursive;
+    }
+
+    h2,
+    h3 {
+        color: #133cb5;
+    }
+
+    background-color: #b3e3d3e5;
+    /* background color */
+    color: #222;
+    /* default text color */
+    font-size: 16px;
+    margin: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #004466;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Navigation styling */
+nav {
+    background-color: #fdcccc;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Links */
+nav a {
+    margin: 10px;
+    text-decoration: none;
+    color: #004466;
+    font-weight: bold;
+}
+
+/* Hover effect */
+nav a:hover {
+    color: #008080;
+    /* emphasis color */
+}
+
+/* Visited link */
+nav a:visited {
+    color: #555;
+}
+
+/* Main content */
+main {
+    padding: 20px;
+}
+
+/* ID selector example */
+#top {
+    border-top: 5px solid #008080;
+}
+
+/* Class selectors */
+.emphasis {
+    color: #008080;
+    /* attention color */
+    font-weight: bold;
+}
+
+.deemphasis {
+    color: #777777;
+    /* less important */
+}
+
+/* Footer styling */
+footer {
+    background-color: #004466;
+    color: #e1e8e3;
+    text-align: center;
+    padding: 10px;
+}
+
+/* These MUST be outside */
+footer a {
+    color: #39ff14;
+    text-decoration: none;
+}
