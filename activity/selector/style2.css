@@ -1,0 +1,23 @@
+.card {
+    background-color: aquamarine;
+    margin: 2rem;
+    border: 3px navy solid;
+    width: 50%;
+    height: 120px;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.card1 {
+    background-color: aquamarine;
+    margin: 2rem;
+    border: 3px rgb(35, 246, 88) solid;
+    width: 50%;
+    height: 120px;
+    padding: 10px 30px 10px 30px;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    text-align: center;
+}
