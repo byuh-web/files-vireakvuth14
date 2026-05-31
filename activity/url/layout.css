@@ -1,0 +1,125 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e20707;
+}
+
+.wrapper {
+    width: 850px;
+    margin: 0 auto;
+    background-color: rgb(224, 168, 168);
+    border: 2px solid #160505;
+    padding: 1rem 20px;
+    box-shadow: 1rem rgb(31, 30, 30);
+}
+
+header {
+    background-image: url(tom\ and\ jerry.jpg);
+    background-size: cover;
+    background-origin: padding-box;
+    background-clip: border-box;
+    padding: 30px;
+    text-align: center;
+    border-radius: 20px;
+
+}
+
+header h1 {
+    font-family: "Aguafina Script", cursive;
+    color: blue;
+    font-size: 50px;
+    text-shadow: 20px 2px 5px black;
+}
+
+header p {
+    color: blue;
+    font-style: italic;
+
+}
+
+nav {
+    text-align: center;
+}
+
+nav ul {
+
+    border: 3px solid rgb(8, 20, 154);
+    padding: 10px 20px;
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+nav li {
+    display: inline;
+    margin: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: darkblue;
+}
+
+nav a:hover {
+    color: rgb(247, 243, 243);
+    background-color: rgb(17, 17, 237);
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+
+h2 {
+    font-family: "Aguafina Script", cursive;
+    color: blue;
+    font-size: 40px;
+}
+
+main {
+    margin: 20px;
+    line-height: 1.6;
+}
+
+main p {
+    font-family: "Georgia", serif;
+    font-size: 16px;
+    font-style: italic;
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.float-img {
+    float: right;
+    width: 300px;
+    margin: 15px;
+    padding: 10px;
+    border: 2px solid #0f12f3;
+    border-radius: 20px;
+
+}
+
+.float-img img {
+    width: 100%;
+    height: 19rem;
+}
+
+.float-img figcaption {
+    font-family: "Aguafina Script", cursive;
+    text-align: center;
+    font-style: italic;
+    font-size: 20px;
+    color: rgb(47, 15, 230);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-image: url("tom\ and\ jerry.jpg");
+    background-size: cover;
+    border-radius: 20px;
+}
+
+footer {
+    color: rgb(12, 49, 231);
+    font-weight: bold;
+    text-transform: uppercase;
+}
