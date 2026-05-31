@@ -1,13 +1,13 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #e20707;
+    background-color: #52a6bb;
 }
 
 .wrapper {
     width: 850px;
     margin: 0 auto;
     background-color: rgb(224, 168, 168);
-    border: 2px solid #160505;
+    border: 5px dashed #0a3df5;
     padding: 1rem 20px;
     box-shadow: 1rem rgb(31, 30, 30);
 }
@@ -42,7 +42,8 @@ nav {
 
 nav ul {
 
-    border: 3px solid rgb(8, 20, 154);
+    border: 5px rgb(15, 15, 212);
+    border-style: dashed double;
     padding: 10px 20px;
     border-radius: 10px;
     display: inline-block;
