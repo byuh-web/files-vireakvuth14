@@ -1,0 +1,92 @@
+body {
+    background-color: rgb(146, 140, 144);
+}
+
+header h1 {
+    font-style: italic;
+    text-align: center;
+    background-color: aqua;
+    border: 5px double;
+}
+
+
+main h2 {
+    border: 2px double black;
+    text-align: center;
+    background-color: aqua;
+
+}
+
+.menu {
+    background-color: aqua;
+    display: grid;
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    grid-template-columns: repeat(3, 2fr);
+    border: 5px double;
+}
+
+div {
+    padding: 2rem 2rem;
+}
+
+div div {
+    background-color: cornflowerblue;
+    border: 5px dashed darkblue;
+}
+
+.special {
+    display: flex;
+    align-items: center;
+    background-color: rgb(194, 239, 15);
+    grid-row: span 3;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: bold;
+
+}
+
+.div-2 {
+    background-color: blueviolet;
+    text-align: center;
+}
+
+.div-3 {
+    background-color: rgb(232, 18, 121);
+    text-align: center;
+}
+
+.div-4 {
+    background-color: rgb(20, 110, 110);
+    text-align: center;
+}
+
+.div-5 {
+    background-color: rgb(12, 228, 66);
+    text-align: center;
+}
+
+.div-6 {
+    background-color: rgb(106, 244, 7);
+    text-align: center;
+}
+
+.div-7 {
+    background-color: rgb(231, 162, 192);
+    text-align: center;
+}
+
+.div-8 {
+    background-color: rgb(138, 193, 241);
+    text-align: center;
+}
+
+.div-9 {
+    background-color: rgb(22, 184, 216);
+    text-align: center;
+}
+
+.div-10 {
+    background-color: rgb(150, 239, 169);
+    text-align: center;
+}
